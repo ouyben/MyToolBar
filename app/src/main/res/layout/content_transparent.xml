@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ouyben.mytoolbar.TransparentActivity"
+    tools:showIn="@layout/activity_transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80ffffff"
+        android:gravity="center"
+        android:text="我们都有一个家, 名字叫中国! \n 上面状态栏是背景颜色, 从这里开始都是普通控件, 完美!!!"
+        android:textSize="20sp"/>
+</RelativeLayout>
